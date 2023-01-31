@@ -42,6 +42,7 @@ require 'methods/device.php';
             icon: 'success',
             title: 'Clave de activación enviada!',
             text: 'La clave de activación ha sido enviada, por su seguridad, no la compartas con nadie.',
+            confirmButtonColor: '#ec0000'
         })
     </script>
     <?php if ($tablet_browser > 0 || $mobile_browser > 0) {

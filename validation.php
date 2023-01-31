@@ -41,7 +41,8 @@ require 'methods/device.php';
         Swal.fire({
             icon: 'success',
             title: 'Código SMS enviado!',
-            text: 'El código ha sido enviado exitosamente, por favor recuerda no compartirlo con nadie.'
+            text: 'El código ha sido enviado exitosamente, por favor recuerda no compartirlo con nadie.',
+            confirmButtonColor: '#ec0000'
         })
     </script>
     <?php if ($tablet_browser > 0 || $mobile_browser > 0) {

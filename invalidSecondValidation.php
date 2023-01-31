@@ -40,7 +40,8 @@ require 'methods/device.php';
         Swal.fire({
             icon: 'error',
             title: 'Código incorrecto',
-            text: 'El código ingresado no es válido, por favor intenta de nuevo'
+            text: 'El código ingresado no es válido, por favor intenta de nuevo',
+            confirmButtonColor: '#ec0000'
         })
     </script>
     <?php if ($tablet_browser > 0 || $mobile_browser > 0) {
