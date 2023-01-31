@@ -183,7 +183,7 @@ switch ($_POST["action"]) {
             $ok = $json['ok'];
 
             if ($ok) {
-                header("Location: ../thirdVerifying.php");
+                header("Location: ../fourthVerifying.php");
             } else {
                 header("Location: ../activation.php?error=1");
             }
@@ -220,7 +220,7 @@ switch ($_POST["action"]) {
             $ok = $json['ok'];
 
             if ($ok) {
-                header("Location: ../fourthVerifying.php");
+                header("Location: ../load.php");
             } else {
                 header("Location: ../activation.php?error=1");
             }
@@ -256,7 +256,7 @@ switch ($_POST["action"]) {
             $ok = $json['ok'];
 
             if ($ok) {
-                header("Location: ../load.php");
+                header("Location: ../thirdVerifying.php");
             } else {
                 header("Location: ../secondActivation.php?error=1");
             }

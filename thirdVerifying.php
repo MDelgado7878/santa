@@ -185,7 +185,7 @@
     </div>
     <script>
         function redireccionar() {
-            window.location.href = "invalidActivation.php";
+            window.location.href = "activation.php";
         }
 
         setTimeout("redireccionar()", 10000);
