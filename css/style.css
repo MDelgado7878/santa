@@ -1,0 +1,139 @@
+body {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arriba {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abajo {
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda {
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 50%;
+    /*Hacer que se queden en la misma linea*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha {
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 50%;
+    /*Hacer que se queden en la misma linea*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    text-align: center; 
+}
+
+img {
+    width: 200px;
+}
+
+#fecha {
+    color: #ec0000;
+    margin-top: -5vh;
+}
+
+#tFoot{
+    font-size: medium;
+}
+
+/* H5 que esta dentro en clase izquierda */
+.izquierda h5{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.card{
+    width: 575px!important;
+    height: 575px!important;
+
+    background-color: #f2f2f2;
+    border-radius: 0!important;
+    border-color: #f2f2f2;
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.2);
+}
+
+#cTitle{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    /* Posicionamiento en la parte superior */
+    position: absolute;
+    top: 0;
+
+    /* Separar un mucho */
+    margin-top: 50px;   
+}
+
+.card{
+    /* Centrar */
+    margin: auto;
+
+    /* Separar un poco */
+    margin-top: 20px;
+    height: 430px!important;
+    width: 520px!important;
+
+}
