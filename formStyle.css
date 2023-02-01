@@ -1,0 +1,115 @@
+.inputContainer {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-size: 14px;
+    text-align: center !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3rem !important;
+    position: relative;
+}
+
+.label-element {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin-bottom: .5rem;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: .813rem;
+    color: #666;
+}
+
+
+.inpt {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-size: 14px;
+    text-align: center !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#client {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 3px !important;
+    background-color: #fff !important;
+    border-color: #d8d8d8 !important;
+    color: #ec0000 !important;
+    letter-spacing: 5px;
+    font-weight: 700;
+    padding: 35px 5px 15px 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+input {
+    /* Hacerlo mas grande */
+    font-size: 1.5em;
+    width: 500px !important;
+    height: 70px !important;
+}
+
+input:focus {
+    /* Color azul celeste de borde */
+    border-color: #66afe9;
+    outline: 2px solid #66afe9;
+}
+
+button {
+    padding: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    transition: .25s;
+    outline: 0;
+    line-height: 17px;
+    font-weight: 700;
+    width: 160px;
+    margin: 5px auto auto;
+    border: none;
+    border-radius: 100px;
+    font-size: .813rem;
+    height: 42px;
+    cursor: pointer;
+    background-color: #ec0000;
+    color: #fff;
+}
+
+
+button:disabled{
+    background-color: #cecece;
+    color: #fff;
+}
+
+.card {
+    margin-top: .5px!important;
+}
+
+
+footer {
+    margin-top: 20px!important;
+}
+
+.abajo{
+    margin-bottom: 25px!important;
+}
